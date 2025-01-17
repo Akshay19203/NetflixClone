@@ -1,0 +1,72 @@
+/* Specific responsive styles for Netflix clone */
+@media (max-width: 768px) {
+  .netflix-nav {
+    display: none; /* Hide navigation on smaller screens */
+  }
+  .netflix-dropdown-box {
+    display: block; /* Show dropdown menu */
+  }
+  .netflix-home-video .content .left {
+    margin-left: 10px; /* Adjust video section margin */
+  }
+  .netflix-home-video .content .left img {
+    width: 150px; /* Adjust image width */
+    margin-top: 50px; /* Adjust image margin */
+  }
+  .slider {
+    top: 150px; /* Adjust slider position */
+  }
+  .card {
+    width: 100%; /* Make cards full width */
+    margin-bottom: 10px; /* Add margin between cards */
+  }
+  .margin-right {
+    margin-right: 0; /* Remove margin */
+  }
+  .card-icon {
+    font-size: 12px; /* Adjust icon size */
+  }
+  .netflix-card-text {
+    font-size: 10px; /* Adjust text size */
+  }
+  .copy-right {
+    margin-left: 0; /* Remove margin */
+    text-align: center; /* Center copyright text */
+  }
+  .footer ul {
+    text-align: center; /* Center footer list items */
+  }
+  .footer li {
+    display: block; /* Stack footer list items */
+    margin-bottom: 5px; /* Add margin between list items */
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Styles for screens up to 1200px wide */
+  .container {
+    max-width: 960px; /* Adjust container width */
+  }
+  .navbar-nav {
+    justify-content: space-around; /* Adjust navigation item spacing */
+  }
+  .hero-section {
+    padding: 50px 20px; /* Adjust hero section padding */
+  }
+  .hero-text {
+    font-size: 2em; /* Adjust hero text size */
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for screens up to 576px wide (small phones) */
+  .container {
+    max-width: 540px; /* Adjust container width */
+  }
+  .hero-text {
+    font-size: 1.2em; /* Adjust hero text size */
+  }
+  .feature-item img {
+    width: 100%; /* Make feature images responsive */
+  }
+}
